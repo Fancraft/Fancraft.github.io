@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>fanfan</title>
+  
+  
+  <link href="https://fancraft.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://fancraft.github.io/"/>
+  <updated>2024-03-16T23:29:25.617Z</updated>
+  <id>https://fancraft.github.io/</id>
+  
+  <author>
+    <name>Fanfan</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://fancraft.github.io/2024/03/14/hello-world/"/>
+    <id>https://fancraft.github.io/2024/03/14/hello-world/</id>
+    <published>2024-03-14T22:43:52.027Z</published>
+    <updated>2024-03-16T23:29:25.617Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
