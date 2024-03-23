@@ -1,0 +1,9 @@
+https://fancraft.github.io/2024/03/21/my-new-post/
+https://fancraft.github.io/about/index.html
+https://fancraft.github.io/2024/03/14/hello-world/
+https://fancraft.github.io/categories/index.html
+https://fancraft.github.io/tags/index.html
+https://fancraft.github.io/404.html
+https://fancraft.github.io/
+https://fancraft.github.io/tags/hexo/
+https://fancraft.github.io/categories/website/
