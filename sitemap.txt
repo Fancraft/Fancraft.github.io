@@ -1,4 +1,5 @@
-https://fancraft.github.io/website/my-new-post/
+https://fancraft.github.io/%E6%80%BB%E7%BB%93/week-1/
+https://fancraft.github.io/web/my-new-post/
 https://fancraft.github.io/about/index.html
 https://fancraft.github.io/tags/index.html
 https://fancraft.github.io/categories/index.html
@@ -6,4 +7,6 @@ https://fancraft.github.io/uncategorized/hello-world/
 https://fancraft.github.io/404.html
 https://fancraft.github.io/
 https://fancraft.github.io/tags/hexo/
-https://fancraft.github.io/categories/website/
+https://fancraft.github.io/tags/summary/
+https://fancraft.github.io/categories/web/
+https://fancraft.github.io/categories/%E6%80%BB%E7%BB%93/
