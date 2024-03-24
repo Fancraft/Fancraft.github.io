@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/uncategorized/hello-world/</url>
+    <content><![CDATA[<p>Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!</p>
+]]></content>
+  </entry>
+  <entry>
     <title>网站构建历史</title>
-    <url>/2024/03/21/my-new-post/</url>
+    <url>/website/my-new-post/</url>
     <content><![CDATA[<h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件<code>favicon</code>更改。<code>avatar</code>同理</p>
 <h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页&#x2F;分类页"></a>增加标签页&#x2F;分类页</h3><p><code>hexo new page tags</code></p>
 <p>.md中添加<code>type: tags</code></p>
@@ -47,8 +53,10 @@ $ hexo deploy == hexo d</code></pre>
 <ol>
 <li><p>本地编辑<code>power by</code>，<code>icon</code>，<code>donate</code>,<code>avatar</code>无及时反馈。可能存在的问题：</p>
 <p>a. <del>需要联网</del></p>
+<p>原因：code里没有完整的<code>.enable</code></p>
+<p>解决：删除footer.swig 中 powered by或添加<code>.enable</code></p>
 </li>
-<li><p>解决不了了！！直接重启theme！</p>
+<li><p>持续bug，解决不了了！！直接重启theme！</p>
 <ol>
 <li><p>install a theme</p>
 <ol>
@@ -78,19 +86,24 @@ git rm -f themes/&lt;theme-name&gt;
 <li>文件里出现<code>&#123;&#123;%&#125;&#125;</code>删除即可</li>
 </ol>
 </li>
-<li><p>删除footer.swig 中 powered by</p>
-</li>
 <li><p>添加busuanzi count记录本站访问次数</p>
 </li>
 </ol>
 <p>下一步</p>
 <ol>
-<li><del>下载dependencies: word count,</del></li>
-<li><del>search services</del></li>
-<li>busuanzi count</li>
-<li><del><code>local search: true</code></del></li>
-<li>安装插件 参考sakuraTears</li>
-<li></li>
+<li><p><del>下载dependencies: word count,</del></p>
+</li>
+<li><p><del>search services</del></p>
+</li>
+<li><p><del>busuanzi count</del></p>
+<ol>
+<li>手动添加，并添加post-meta-devider</li>
+</ol>
+</li>
+<li><p><del><code>local search: true</code></del></p>
+</li>
+<li><p>安装插件 参考sakuraTears</p>
+</li>
 </ol>
 <h3 id="自定义鼠标样式"><a href="#自定义鼠标样式" class="headerlink" title="自定义鼠标样式"></a>自定义鼠标样式</h3><p><code>themes/*/source/css/_custom</code>自定义添加<code>_custom</code>文件夹和·<code>custom.styl</code>。添加：</p>
 <pre><code class="highlight plaintext">代码// 鼠标样式
@@ -111,8 +124,6 @@ npm install gulp-imagemin --save</code></pre>
 
 
 
-
-
 ]]></content>
       <categories>
         <category>website</category>
@@ -120,11 +131,5 @@ npm install gulp-imagemin --save</code></pre>
       <tags>
         <tag>hexo</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2024/03/14/hello-world/</url>
-    <content><![CDATA[<p>Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!</p>
-]]></content>
   </entry>
 </search>
