@@ -102,6 +102,8 @@ git rm -f themes/&lt;theme-name&gt;
 </li>
 <li><p><del><code>local search: true</code></del></p>
 </li>
+<li><p><del>添加底部已运行</del></p>
+</li>
 <li><p>安装插件 参考sakuraTears</p>
 </li>
 </ol>
