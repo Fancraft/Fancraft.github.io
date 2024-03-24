@@ -13,16 +13,16 @@
   <url>
     <loc>https://fancraft.github.io/about/index.html</loc>
     
-    <lastmod>2024-03-16</lastmod>
+    <lastmod>2024-03-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/uncategorized/hello-world/</loc>
+    <loc>https://fancraft.github.io/tags/index.html</loc>
     
-    <lastmod>2024-03-16</lastmod>
+    <lastmod>2024-03-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,14 +31,14 @@
   <url>
     <loc>https://fancraft.github.io/categories/index.html</loc>
     
-    <lastmod>2024-03-16</lastmod>
+    <lastmod>2024-03-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/tags/index.html</loc>
+    <loc>https://fancraft.github.io/uncategorized/hello-world/</loc>
     
     <lastmod>2024-03-16</lastmod>
     

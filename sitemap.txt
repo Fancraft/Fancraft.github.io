@@ -1,8 +1,8 @@
 https://fancraft.github.io/website/my-new-post/
 https://fancraft.github.io/about/index.html
-https://fancraft.github.io/uncategorized/hello-world/
-https://fancraft.github.io/categories/index.html
 https://fancraft.github.io/tags/index.html
+https://fancraft.github.io/categories/index.html
+https://fancraft.github.io/uncategorized/hello-world/
 https://fancraft.github.io/404.html
 https://fancraft.github.io/
 https://fancraft.github.io/tags/hexo/
