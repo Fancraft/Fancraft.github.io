@@ -2,16 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://fancraft.github.io/%E6%80%BB%E7%BB%93/week-1/</loc>
+    <loc>https://fancraft.github.io/web/my-new-post/</loc>
     
-    <lastmod>2024-03-24</lastmod>
+    <lastmod>2024-03-27</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/web/my-new-post/</loc>
+    <loc>https://fancraft.github.io/uncategorized/draft/</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/404.html</loc>
+    
+    <lastmod>2024-03-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/%E6%80%BB%E7%BB%93/week-1/</loc>
     
     <lastmod>2024-03-24</lastmod>
     
@@ -55,34 +73,25 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://fancraft.github.io/404.html</loc>
-    
-    <lastmod>2024-03-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://fancraft.github.io/</loc>
-    <lastmod>2024-03-24</lastmod>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://fancraft.github.io/tags/hexo/</loc>
-    <lastmod>2024-03-24</lastmod>
+    <loc>https://fancraft.github.io/tags/summary/</loc>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/tags/summary/</loc>
-    <lastmod>2024-03-24</lastmod>
+    <loc>https://fancraft.github.io/tags/hexo/</loc>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -90,15 +99,15 @@
 
   
   <url>
-    <loc>https://fancraft.github.io/categories/web/</loc>
-    <lastmod>2024-03-24</lastmod>
+    <loc>https://fancraft.github.io/categories/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/categories/%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2024-03-24</lastmod>
+    <loc>https://fancraft.github.io/categories/web/</loc>
+    <lastmod>2024-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

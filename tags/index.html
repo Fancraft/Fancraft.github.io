@@ -94,6 +94,28 @@
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </header>
         
@@ -125,7 +147,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">4</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -205,40 +227,36 @@
   </div>
 
 
-<div class="busuanzi-count">
 
-  <span id="busuanzi_container_site_pv">
-   <span class="post-meta-item">
-     <span class="post-meta-item-icon">
-      <i class="fa fa-eye"></i>
-     </span>
-    <span id="busuanzi_value_site_pv"></span>
-
-    <span class="post-meta-divider">&nbsp;|&nbsp;</span>
-
-   </span>
-  </span>
-
-  
-
-  <span id="busuanzi_container_site_uv">
-  <span class="post-meta-item-icon">
-    <i class="fa fa-user"></i>
-  <span id="busuanzi_value_site_uv"></span>
-</span>
-
-</div>
 
 
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="Total Visitors">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="Total Views">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
 
 
 <div id="days"></div>
 <script>
 function show_date_time(){
     window.setTimeout("show_date_time()", 1000);
-    BirthDay=new Date("03/21/2024 00:00:00");
+    BirthDay=new Date("03/14/2024 00:00:00");
     today=new Date();
     timeold=(today.getTime()-BirthDay.getTime());
     sectimeold=timeold/1000
@@ -251,7 +269,7 @@ function show_date_time(){
     e_minsold=(e_hrsold-hrsold)*60;
     minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
     seconds=setzero(Math.floor((e_minsold-minsold)*60));
-    document.getElementById('days').innerHTML="Has existed for "+daysold+" days "+hrsold+" hrs "+minsold+" mins "+seconds+" s";
+    document.getElementById('days').innerHTML="Running for "+daysold+" days "+hrsold+" hrs "+minsold+" mins "+seconds+" s";
 }
 function setzero(i) {
     if (i<10) {

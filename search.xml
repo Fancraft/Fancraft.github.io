@@ -1,70 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>一切初始</title>
-      <link href="/%E6%80%BB%E7%BB%93/week-1/"/>
-      <url>/%E6%80%BB%E7%BB%93/week-1/</url>
-      
-        <content type="html"><![CDATA[<h1 id="一切初始"><a href="#一切初始" class="headerlink" title="一切初始"></a>一切初始</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>建立网站主要原因是简历上放个网站，原网站是纯<code>html</code>和<code>css</code>手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了<a href="https://iwanlab.com/blog-choosing/">视频</a>，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。</p><h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>尽管已有前人铺路，任何一个自己想要摸索的技能仍然很有挑战性。不论是科研还是学习一门语言，掌握整个系统的框架才能找到出错的原因，也才能更改和进步。</p><p>简单来说<code>Hexo</code>使用<code>javascript</code>来制造网络博客。如果你安装了<code>Hexo</code>，那就只需要个主题<code>theme</code>和服务器。当然，对我来说，不想付钱买服务器就可以在<code>github</code>上部署。参考了太多博主，而一些教程已经落后，版本已更新不适用，所以我大概总结了遇到的<a href="https://fancraft.github.io/website/my-new-post/">麻烦</a>，可供参考。</p><p>耗时大概一周才有个还算比较满意的博客，但还需要改正和添加的地方太多了。以后慢慢改，也是实行不需要一直在一个问题上栽跟头，适当地转移自己的注意有助于思考。（虽然我这几天一直是干坐好几个小时搞一个bug的状态 :3</p><h2 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h2><p>凑合着用。因为搞网站而把自己的其他事情搁置了，很专一，也很呆板。说不定以后直接链接<code>notion</code>，毕竟整合也很方便。</p><h3 id="Wi-Fi"><a href="#Wi-Fi" class="headerlink" title="Wi-Fi"></a>Wi-Fi</h3><p>住所不装Wi-Fi已有一月多，大的改变是使用互联网的习惯，基本上不会在社交网络上逗留太多时间。微信是社交网络使用时间的巨头，主要用处在和家人朋友的通讯，获取地区&#x2F;二手&#x2F;爱好最新信息。老实说，关注的大部分公众号只会浏览标题，很少点进去深度阅读(几分钟的阅读其实也并不深)。最高浏览量的是_环球科学_，_上海疾控_，_YuLab_和_心理学人_，其他各是AI发展&#x2F;情怀&#x2F;小众&#x2F;社群之类的。短视频功能没有开启，公众号我也不再更新。综上，微信对我来说主要用处是保持社交，维持情绪。占用手机屏幕使用时间的其他应用分别是：微信读书，Duolinguo和浏览器。</p><h3 id="瘾"><a href="#瘾" class="headerlink" title="瘾"></a>瘾</h3><p>由于创建博客接触到了RSS订阅，看到了思想丰腴的人游荡在互联网:ocean:。有个摘抄自<code>github</code>的CEO是这样的：</p><blockquote><p>One week is 2% of the year.</p></blockquote><p>这样量化一周的时间，如果不合理利用的话，丢失了多少学习的机会。</p><p>我自己虽然本事是个喜欢忙起来的人，好处是接触到新鲜的事物，坏处是有时候像无头苍蝇乱飞，最后变得疲惫。如果有<strong>计划</strong>和<strong>导向</strong>的完成目标，会轻松得多。就像Dr.Kim说的，从目标进化成一个系统。例如，从一周跑10km的目标进化🧬成每天跑500m，可持续性地为自己建立习惯。成习惯也会成瘾，假设一两天不摸吉他，我就恐惧手上的茧会褪去，积累的熟练会突然消失。这样的瘾，能让人建立自己的标准，就像慢慢在房子上抹水泥，一点点地丰富自己。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>draft</title>
+    <url>/uncategorized/draft/</url>
+    <content><![CDATA[<p>《原则》书中的第一性原理：目标 -&gt; 问题 -&gt;诊断 -&gt; 方案 -&gt; 践行</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>一切初始</title>
+    <url>/%E6%80%BB%E7%BB%93/week-1/</url>
+    <content><![CDATA[<h1 id="一切初始"><a href="#一切初始" class="headerlink" title="一切初始"></a>一切初始</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>建立网站主要原因是简历上放个网站，原网站是纯<code>html</code>和<code>css</code>手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了<a href="https://iwanlab.com/blog-choosing/">视频</a>，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。</p>
+<h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>尽管已有前人铺路，任何一个自己想要摸索的技能仍然很有挑战性。不论是科研还是学习一门语言，掌握整个系统的框架才能找到出错的原因，也才能更改和进步。</p>
+<p>简单来说<code>Hexo</code>使用<code>javascript</code>来制造网络博客。如果你安装了<code>Hexo</code>，那就只需要个主题<code>theme</code>和服务器。当然，对我来说，不想付钱买服务器就可以在<code>github</code>上部署。参考了太多博主，而一些教程已经落后，版本已更新不适用，所以我大概总结了遇到的<a href="https://fancraft.github.io/website/my-new-post/">麻烦</a>，可供参考。</p>
+<p>耗时大概一周才有个还算比较满意的博客，但还需要改正和添加的地方太多了。以后慢慢改，也是实行不需要一直在一个问题上栽跟头，适当地转移自己的注意有助于思考。（虽然我这几天一直是干坐好几个小时搞一个bug的状态 :3</p>
+<h2 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h2><p>凑合着用。因为搞网站而把自己的其他事情搁置了，很专一，也很呆板。说不定以后直接链接<code>notion</code>，毕竟整合也很方便。</p>
+<h3 id="Wi-Fi"><a href="#Wi-Fi" class="headerlink" title="Wi-Fi"></a>Wi-Fi</h3><p>住所不装Wi-Fi已有一月多，大的改变是使用互联网的习惯，基本上不会在社交网络上逗留太多时间。微信是社交网络使用时间的巨头，主要用处在和家人朋友的通讯，获取地区&#x2F;二手&#x2F;爱好最新信息。老实说，关注的大部分公众号只会浏览标题，很少点进去深度阅读(几分钟的阅读其实也并不深)。最高浏览量的是_环球科学_，_上海疾控_，_YuLab_和_心理学人_，其他各是AI发展&#x2F;情怀&#x2F;小众&#x2F;社群之类的。短视频功能没有开启，公众号我也不再更新。综上，微信对我来说主要用处是保持社交，维持情绪。占用手机屏幕使用时间的其他应用分别是：微信读书，Duolinguo和浏览器。</p>
+<h3 id="瘾"><a href="#瘾" class="headerlink" title="瘾"></a>瘾</h3><p>由于创建博客接触到了RSS订阅，看到了思想丰腴的人游荡在互联网:ocean:。有个摘抄自<code>github</code>的CEO是这样的：</p>
+<blockquote>
+<p>One week is 2% of the year.</p>
+</blockquote>
+<p>这样量化一周的时间，如果不合理利用的话，丢失了多少学习的机会。</p>
+<p>我自己虽然本事是个喜欢忙起来的人，好处是接触到新鲜的事物，坏处是有时候像无头苍蝇乱飞，最后变得疲惫。如果有<strong>计划</strong>和<strong>导向</strong>的完成目标，会轻松得多。就像Dr.Kim说的，从目标进化成一个系统。例如，从一周跑10km的目标进化🧬成每天跑500m，可持续性地为自己建立习惯。成习惯也会成瘾，假设一两天不摸吉他，我就恐惧手上的茧会褪去，积累的熟练会突然消失。这样的瘾，能让人建立自己的标准，就像慢慢在房子上抹水泥，一点点地丰富自己。</p>
+]]></content>
       <categories>
-          
-          <category> 总结 </category>
-          
+        <category>总结</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> summary </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>网站构建历史</title>
-      <link href="/web/my-new-post/"/>
-      <url>/web/my-new-post/</url>
-      
-        <content type="html"><![CDATA[<h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件<code>favicon</code>更改。<code>avatar</code>同理</p><h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页&#x2F;分类页"></a>增加标签页&#x2F;分类页</h3><p><code>hexo new page tags</code></p><p>.md中添加<code>type: tags</code></p><p><code>categories</code>同理</p><h3 id="本地调试步骤"><a href="#本地调试步骤" class="headerlink" title="本地调试步骤"></a>本地调试步骤</h3><pre><code class="highlight plaintext">$ hexo clean$ hexo g$ hexo s --debug</code></pre><h3 id="部署步骤"><a href="#部署步骤" class="headerlink" title="部署步骤"></a>部署步骤</h3><pre><code class="highlight plaintext">$ hexo clean$ hexo g$ hexo d</code></pre><h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><pre><code class="highlight plaintext">$ hexo new &quot;postName&quot;  #新建文章$ hexo new page &quot;pageName&quot; # 新建页面$ hexo generate # 生成静态页面至public目录$ hexo server # 开启预览访问端口(默认端口4000，&#x27;ctrl+c&#x27;关闭server)$ hexo deploy # 项目部署$ hexo help # 查看帮助$ hexo version # 查看Hexo的版本</code></pre><p><a href="https://hexo.io/docs/">documentation</a> </p><p><a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a></p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="新建文档"><a href="#新建文档" class="headerlink" title="新建文档"></a>新建文档</h3><pre><code class="highlight bash">$ hexo new <span class="string">&quot;My New Post&quot;</span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="highlight bash">$ hexo server</code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="highlight bash">$ hexo generate</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="highlight bash">$ hexo deploy</code></pre><h2 id="虫子"><a href="#虫子" class="headerlink" title="虫子"></a>虫子</h2><ol><li><p>本地编辑<code>power by</code>，<code>icon</code>，<code>reward</code>,<code>avatar</code>无及时反馈。可能存在的问题：</p><p>a. <del>需要联网</del></p><p>原因：code里没有完整的<code>.enable</code></p><p>解决：删除footer.swig 中 powered by或添加<code>.enable</code></p></li><li><p>持续bug，解决不了了！！直接重启theme！</p><ol><li><p>install a theme</p><ol><li><code>git clone &lt;theme-repo-url&gt; themes/&lt;theme-name&gt;</code></li></ol></li><li><p>remove a theme</p><ol><li><pre><code>git rm -rf themes/&lt;theme-name&gt;# remove as a submodulerm -rf themes/&lt;theme-name&gt;git submodule deinit -f themes/&lt;theme-name&gt;rm -rf .git/modules/themes/&lt;theme-name&gt;git rm -f themes/&lt;theme-name&gt;<pre><code class="highlight plaintext"></code></pre></code></pre></li></ol></li></ol></li><li><p><code>sidebar</code>无法删除。</p><ol><li>解决：直接inspect element&#x2F;f12，强行删除sidebar…哪里不爽点哪里。<a href="https://io-oi.me/tech/hexo-next-optimization/#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%98%BE%E7%A4%BA-back-to-top-%E6%8C%89%E9%92%AE%E5%92%8C%E4%BE%A7%E6%A0%8F">参考</a></li></ol></li><li><p>文章结尾出现<code>Template render error: </code></p><ol><li>解决：文件里出现<code>&#123;&#123;%&#125;&#125;</code>删除即可，这也是为什么我没有再把所有编辑过的码po上来的原因..</li></ol></li><li><p>无法显示busuanzi count记录本站访问次数</p><ol><li>解决：直接上busuanzi官网复制粘贴代码到<code>footer.njk</code>，不知道为什么<code>swig</code>改到了<code>njk</code>，不过都能用。并添加post-meta-devider。</li></ol></li></ol><h2 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h2><ol><li><p><del>下载dependencies: word count,</del></p></li><li><p><del>search services</del></p></li><li><p><del>busuanzi count</del></p></li><li><p><del><code>local search: true</code></del></p><ol><li><em>未成功</em></li></ol></li><li><p><del>添加底部已运行–天–时–</del></p></li><li><p>添加到google search中</p><ol><li><a href="https://developers.google.com/search">https://developers.google.com/search</a></li><li>搞个html verification，复制到配置文件里 <code>&lt;meta name=&quot;google-site-verification&quot; content=&quot;zmdllLs3T5PIoDAKGjHjdF-gO6eH3uqxmbBf5yQNeDA&quot; /&gt;</code></li><li><em>未成功</em></li></ol></li><li><p><code>reward</code>二维码</p></li><li><p>修改博客颜色</p><ol><li>预备颜色<ol><li>CCD5AE，E9EDC9，FEFAE0，FAEDCD，D4A373</li><li>DAD7CD，A3B18A，588157，3A5A40，344E41</li></ol></li></ol></li><li><p>阅读进程滚动条</p><ol><li><em>未成功</em></li></ol></li><li><p>豆瓣&#x2F;notion plugin</p></li><li><p>安装插件 参考sakuraTears</p></li></ol><p>参考</p><ol><li><a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a></li></ol>]]></content>
-      
-      
+      <tags>
+        <tag>summary</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>网站构建历史</title>
+    <url>/web/my-new-post/</url>
+    <content><![CDATA[<h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件<code>favicon</code>更改。<code>avatar</code>同理</p>
+<h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页&#x2F;分类页"></a>增加标签页&#x2F;分类页</h3><p><code>hexo new page tags</code></p>
+<p>.md中添加<code>type: tags</code></p>
+<p><code>categories</code>同理</p>
+<h3 id="本地调试步骤"><a href="#本地调试步骤" class="headerlink" title="本地调试步骤"></a>本地调试步骤</h3><pre><code class="highlight plaintext">$ hexo clean
+$ hexo g
+$ hexo s --debug</code></pre>
+
+<h3 id="部署步骤"><a href="#部署步骤" class="headerlink" title="部署步骤"></a>部署步骤</h3><pre><code class="highlight plaintext">$ hexo clean
+$ hexo g
+$ hexo d</code></pre>
+
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><pre><code class="highlight plaintext">$ hexo new &quot;postName&quot;  #新建文章
+$ hexo new page &quot;pageName&quot; # 新建页面
+$ hexo generate # 生成静态页面至public目录
+$ hexo server # 开启预览访问端口(默认端口4000，&#x27;ctrl+c&#x27;关闭server)
+$ hexo deploy # 项目部署
+$ hexo help # 查看帮助
+$ hexo version # 查看Hexo的版本</code></pre>
+
+<p><a href="https://hexo.io/docs/">documentation</a> </p>
+<p><a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="新建文档"><a href="#新建文档" class="headerlink" title="新建文档"></a>新建文档</h3><pre><code class="highlight bash">$ hexo new <span class="string">&quot;My New Post&quot;</span></code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code class="highlight bash">$ hexo server</code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code class="highlight bash">$ hexo generate</code></pre>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code class="highlight bash">$ hexo deploy</code></pre>
+
+<h2 id="虫子"><a href="#虫子" class="headerlink" title="虫子"></a>虫子</h2><ol>
+<li><p>本地编辑<code>power by</code>，<code>icon</code>，<code>reward</code>,<code>avatar</code>无及时反馈。可能存在的问题：</p>
+<p>a. <del>需要联网</del></p>
+<p>原因：code里没有完整的<code>.enable</code></p>
+<p>解决：删除footer.swig 中 powered by或添加<code>.enable</code></p>
+</li>
+<li><p>持续bug，解决不了了！！直接重启theme！</p>
+<ol>
+<li><p>install a theme</p>
+<ol>
+<li><code>git clone &lt;theme-repo-url&gt; themes/&lt;theme-name&gt;</code></li>
+</ol>
+</li>
+<li><p>remove a theme</p>
+<ol>
+<li><pre><code>git rm -rf themes/&lt;theme-name&gt;
+
+# remove as a submodule
+rm -rf themes/&lt;theme-name&gt;
+git submodule deinit -f themes/&lt;theme-name&gt;
+rm -rf .git/modules/themes/&lt;theme-name&gt;
+git rm -f themes/&lt;theme-name&gt;
+<pre><code class="highlight plaintext"></code></pre>
+</code></pre>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p><code>sidebar</code>无法删除。</p>
+<ol>
+<li>解决：直接inspect element&#x2F;f12，强行删除sidebar…哪里不爽点哪里。<a href="https://io-oi.me/tech/hexo-next-optimization/#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%98%BE%E7%A4%BA-back-to-top-%E6%8C%89%E9%92%AE%E5%92%8C%E4%BE%A7%E6%A0%8F">参考</a></li>
+</ol>
+</li>
+<li><p>文章结尾出现<code>Template render error: </code></p>
+<ol>
+<li>解决：文件里出现<code>&#123;&#123;%&#125;&#125;</code>删除即可，这也是为什么我没有再把所有编辑过的码po上来的原因…</li>
+</ol>
+</li>
+<li><p>无法显示busuanzi count记录本站访问次数</p>
+<ol>
+<li>解决：直接上busuanzi官网复制粘贴代码到<code>footer.njk</code>，不知道为什么<code>swig</code>改到了<code>njk</code>，不过都能用。并添加post-meta-devider。</li>
+<li>解决2: <code>footer.njk</code>中<code>.enable</code>改成<code>!==false </code>，并且将busuanzi官方两行代码复制到<code>busuanzi-counter.njk</code>文件</li>
+</ol>
+</li>
+</ol>
+<h2 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h2><ol>
+<li><p><del>下载dependencies: word count,</del></p>
+</li>
+<li><p><del>search services</del></p>
+</li>
+<li><p><del>busuanzi count</del></p>
+</li>
+<li><p><code>local search: true</code></p>
+<ol>
+<li><em>未成功</em></li>
+</ol>
+</li>
+<li><p><del>添加底部已运行–天–时–</del></p>
+</li>
+<li><p>添加到google search中</p>
+<ol>
+<li><a href="https://developers.google.com/search">https://developers.google.com/search</a></li>
+<li>搞个html verification，复制到配置文件里 <code>&lt;meta name=&quot;google-site-verification&quot; content=&quot;zmdllLs3T5PIoDAKGjHjdF-gO6eH3uqxmbBf5yQNeDA&quot; /&gt;</code></li>
+<li><em>未成功</em></li>
+</ol>
+</li>
+<li><p><code>reward</code>二维码</p>
+</li>
+<li><p>修改博客颜色</p>
+<ol>
+<li>预备颜色<ol>
+<li>CCD5AE，E9EDC9，FEFAE0，FAEDCD，D4A373</li>
+<li>DAD7CD，A3B18A，588157，3A5A40，344E41</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><p>阅读进程滚动条</p>
+<ol>
+<li><em>未成功</em></li>
+</ol>
+</li>
+<li><p>豆瓣&#x2F;notion plugin</p>
+</li>
+<li><p>字体大小</p>
+<ol>
+<li>themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_variables</li>
+</ol>
+</li>
+<li><p>安装插件 参考sakuraTears</p>
+</li>
+</ol>
+<p>参考</p>
+<ol>
+<li><a href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a></li>
+</ol>
+]]></content>
       <categories>
-          
-          <category> web </category>
-          
+        <category>web</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/uncategorized/hello-world/"/>
-      <url>/uncategorized/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/uncategorized/hello-world/</url>
+    <content><![CDATA[<p>Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!</p>
+]]></content>
+  </entry>
 </search>
