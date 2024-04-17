@@ -18,6 +18,8 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/#bcbcbc/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"fancraft.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
@@ -52,7 +54,37 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-<link rel="alternate" href="/atom.xml" title="fanfan's blog" type="application/atom+xml">
+<style type="text/css">
+.spoiler {
+  display: inline;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><link rel="alternate" href="/atom.xml" title="fanfan's blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -153,7 +185,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -164,7 +196,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -181,6 +213,91 @@
     </div>
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://fancraft.github.io/life/week-3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="name" content="Fanfan">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="fanfan's blog">
+      <meta itemprop="description" content="No Fan No Fun :?">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | fanfan's blog">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/life/week-3/" class="post-title-link" itemprop="url">春天的回忆</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+
+      <time title="Created: 2024-04-12 10:50:20" itemprop="dateCreated datePublished" datetime="2024-04-12T10:50:20-04:00">2024-04-12</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/life/" itemprop="url" rel="index"><span itemprop="name">life</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          有东西被加密了, 猜猜密码.
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/life/week-3/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -208,7 +325,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/life/week-2/" class="post-title-link" itemprop="url">week-2</a>
+          <a href="/life/week-2/" class="post-title-link" itemprop="url">日全食</a>
         </h2>
 
         <div class="post-meta-container">
@@ -243,13 +360,13 @@
     <div class="post-body" itemprop="articleBody">
           <h2 id="多云也要看日食"><a href="#多云也要看日食" class="headerlink" title="多云也要看日食"></a>多云也要看日食</h2><p>天气预报下午将会多云，偏偏日全食也在这个时候，不过去外面晒太阳躺着也行。窗外层层灰云没有散去的迹象，远处天地交界处倒是泛蓝。如果开车远离这里一两个小时，大概率会是晴天。月亮吞噬太阳一段时间后，对面楼竟然有了光阴。必须要下去了！天公作美。居民已经在有光的地方聚集。有人半开着驾驶座的门，侧身举着日食专用眼镜看了入神。老太太仰躺轮椅上欣赏。乌云似有似无地飘过，想要遮住太阳。可惜我重度近视和散光，用专用眼睛看出了好几个重影，月牙状橙黄的太阳慢慢变细。去掉日食眼镜，刺眼地白光就在我头上，我只能回避。肉眼盯着是看不到月亮的影子的，只瞎掉眼睛。</p>
 <p>在月亮接近于完全覆盖住太阳时，天空整个暗了下来，路灯亮了，仿佛一下子进入黑夜。太阳只剩下一个圆环，还有一点点的偏差让它发出如戒指上的钻石般的光芒。于是，正式进入一分多钟的日全食。这时可以用肉眼观看。震撼的景象来了，整个太阳除了逃离出月亮的一环白光，整个芯都是暗黑色。周边的云和天都要比它亮。人群躁动起来了，抬头看罕见地日全食。</p>
-<h2 id="WiFi-续"><a href="#WiFi-续" class="headerlink" title="WiFi - 续"></a>WiFi - 续</h2><p>不装Wifi的弊端有三个：</p>
+<h2 id="WiFi-续"><a href="#WiFi-续" class="headerlink" title="WiFi - 续"></a>WiFi - 续</h2><p>不装 Wifi 的弊端有三个：</p>
 <ol>
-<li>由于外出使用wifi而导致大部分时间都不在屋里，猫猫有极大概率的饿肚子的风险。于是乎，回家时猫很兴奋地讨吃的。</li>
+<li>由于外出使用 wifi 而导致大部分时间都不在屋里，猫猫有极大概率的饿肚子的风险。于是乎，回家时猫很兴奋地讨吃的。</li>
 <li>也由于大部分时间在外面，冰箱里的食物不能及时吃掉而浪费。会有回家时太过疲惫而无法打包第二天的饭的情况。</li>
 <li>在外餐饮消费频次增高。</li>
 </ol>
-<p>总之，wifi装回来了。可喜可贺！🎉</p>
+<p>总之，wifi 装回来了。可喜可贺！🎉</p>
 <p>突然地回归网上冲浪生活有些不能自拔，也是个新生活的开始。</p>
 
           <!--noindex-->
@@ -336,11 +453,11 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="一切初始"><a href="#一切初始" class="headerlink" title="一切初始"></a>一切初始</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>建立网站主要原因是简历上放个网站，原网站是纯<code>html</code>和<code>css</code>手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了<a target="_blank" rel="noopener" href="https://iwanlab.com/blog-choosing/">视频</a>，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。</p>
+          <h1 id="一切初始"><a href="#一切初始" class="headerlink" title="一切初始"></a>一切初始</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>建立网站主要原因是简历上放个网站，原网站是纯 <code>html</code> 和 <code>css</code> 手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了<a target="_blank" rel="noopener" href="https://iwanlab.com/blog-choosing/">视频</a>，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。</p>
 <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>尽管已有前人铺路，任何一个自己想要摸索的技能仍然很有挑战性。不论是科研还是学习一门语言，掌握整个系统的框架才能找到出错的原因，也才能更改和进步。</p>
-<p>简单来说<code>Hexo</code>使用<code>javascript</code>来制造网络博客。如果你安装了<code>Hexo</code>，那就只需要个主题<code>theme</code>和服务器。当然，对我来说，不想付钱买服务器就可以在<code>github</code>上部署。参考了太多博主，而一些教程已经落后，版本已更新不适用，所以我大概总结了遇到的<a href="https://fancraft.github.io/website/my-new-post/">麻烦</a>，可供参考。</p>
-<p>耗时大概一周才有个还算比较满意的博客，但还需要改正和添加的地方太多了。以后慢慢改，也是实行不需要一直在一个问题上栽跟头，适当地转移自己的注意有助于思考。（虽然我这几天一直是干坐好几个小时搞一个bug的状态 :3</p>
-<h2 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h2><p>凑合着用。因为搞网站而把自己的其他事情搁置了，很专一，也很呆板。说不定以后直接链接<code>notion</code>，毕竟整合也很方便。</p>
+<p>简单来说 <code>Hexo</code> 使用 <code>javascript</code> 来制造网络博客。如果你安装了 <code>Hexo</code>，那就只需要个主题 <code>theme</code> 和服务器。当然，对我来说，不想付钱买服务器就可以在 <code>github</code> 上部署。参考了太多博主，而一些教程已经落后，版本已更新不适用，所以我大概总结了遇到的<a href="https://fancraft.github.io/website/my-new-post/">麻烦</a>，可供参考。</p>
+<p>耗时大概一周才有个还算比较满意的博客，但还需要改正和添加的地方太多了。以后慢慢改，也是实行不需要一直在一个问题上栽跟头，适当地转移自己的注意有助于思考。（虽然我这几天一直是干坐好几个小时搞一个 bug 的状态 :3</p>
+<h2 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h2><p>凑合着用。因为搞网站而把自己的其他事情搁置了，很专一，也很呆板。说不定以后直接链接 <code>notion</code>，毕竟整合也很方便。</p>
 <h3 id="Wi-Fi"><a href="#Wi-Fi" class="headerlink" title="Wi-Fi"></a>Wi-Fi</h3>
           <!--noindex-->
             <div class="post-button">
@@ -426,10 +543,10 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a target="_blank" rel="noopener" href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件<code>favicon</code>更改。<code>avatar</code>同理</p>
-<h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页&#x2F;分类页"></a>增加标签页&#x2F;分类页</h3><p><code>hexo new page tags</code></p>
-<p>.md中添加<code>type: tags</code></p>
-<p><code>categories</code>同理</p>
+          <h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a target="_blank" rel="noopener" href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件 <code>favicon</code> 更改。<code>avatar</code> 同理</p>
+<h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页/分类页"></a>增加标签页 / 分类页</h3><p><code>hexo new page tags</code></p>
+<p>.md 中添加 <code>type: tags</code></p>
+<p><code>categories</code> 同理</p>
 <h3 id="本地调试步骤"><a href="#本地调试步骤" class="headerlink" title="本地调试步骤"></a>本地调试步骤</h3><pre><code class="highlight plaintext">$ hexo clean
 $ hexo g
 $ hexo s --debug</code></pre>
@@ -638,6 +755,7 @@ $ hexo s --debug</code></pre>
 
 
 
+  <script src="/js/third-party/pace.js"></script>
 
 
   

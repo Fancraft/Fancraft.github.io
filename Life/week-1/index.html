@@ -18,15 +18,17 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/#bcbcbc/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"fancraft.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="一切初始初衷建立网站主要原因是简历上放个网站，原网站是纯html和css手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了视频，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。 过程尽管已">
+    <meta name="description" content="一切初始初衷建立网站主要原因是简历上放个网站，原网站是纯 html 和 css 手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了视频，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。 过">
 <meta property="og:type" content="article">
 <meta property="og:title" content="一切初始">
 <meta property="og:url" content="https://fancraft.github.io/Life/week-1/index.html">
 <meta property="og:site_name" content="fanfan&#39;s blog">
-<meta property="og:description" content="一切初始初衷建立网站主要原因是简历上放个网站，原网站是纯html和css手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了视频，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。 过程尽管已">
+<meta property="og:description" content="一切初始初衷建立网站主要原因是简历上放个网站，原网站是纯 html 和 css 手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了视频，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。 过">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-03-24T21:01:50.000Z">
 <meta property="article:modified_time" content="2024-04-03T19:32:26.985Z">
@@ -55,7 +57,37 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-<link rel="alternate" href="/atom.xml" title="fanfan's blog" type="application/atom+xml">
+<style type="text/css">
+.spoiler {
+  display: inline;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><link rel="alternate" href="/atom.xml" title="fanfan's blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -157,7 +189,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -168,7 +200,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -245,18 +277,18 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="一切初始"><a href="#一切初始" class="headerlink" title="一切初始"></a>一切初始</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>建立网站主要原因是简历上放个网站，原网站是纯<code>html</code>和<code>css</code>手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了<a target="_blank" rel="noopener" href="https://iwanlab.com/blog-choosing/">视频</a>，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="一切初始"><a href="#一切初始" class="headerlink" title="一切初始"></a>一切初始</h1><h2 id="初衷"><a href="#初衷" class="headerlink" title="初衷"></a>初衷</h2><p>建立网站主要原因是简历上放个网站，原网站是纯 <code>html</code> 和 <code>css</code> 手写。在浏览互联网上留下足迹的大佬们后，决定使用别人搭建好的，自己修改即可。看了<a target="_blank" rel="noopener" href="https://iwanlab.com/blog-choosing/">视频</a>，参考了一些人的手记，顺便关注了感兴趣的并持续输出的博客博主。看到运行时间及长的博主都会被激励到，也希望能输出有用的文章。没有再更新的博主也有很多，他们的知识和思考都被储存在互联网上。互联网确实是一扇窗，让我看到想象不到的生活和人。</p>
 <h2 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h2><p>尽管已有前人铺路，任何一个自己想要摸索的技能仍然很有挑战性。不论是科研还是学习一门语言，掌握整个系统的框架才能找到出错的原因，也才能更改和进步。</p>
-<p>简单来说<code>Hexo</code>使用<code>javascript</code>来制造网络博客。如果你安装了<code>Hexo</code>，那就只需要个主题<code>theme</code>和服务器。当然，对我来说，不想付钱买服务器就可以在<code>github</code>上部署。参考了太多博主，而一些教程已经落后，版本已更新不适用，所以我大概总结了遇到的<a href="https://fancraft.github.io/website/my-new-post/">麻烦</a>，可供参考。</p>
-<p>耗时大概一周才有个还算比较满意的博客，但还需要改正和添加的地方太多了。以后慢慢改，也是实行不需要一直在一个问题上栽跟头，适当地转移自己的注意有助于思考。（虽然我这几天一直是干坐好几个小时搞一个bug的状态 :3</p>
-<h2 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h2><p>凑合着用。因为搞网站而把自己的其他事情搁置了，很专一，也很呆板。说不定以后直接链接<code>notion</code>，毕竟整合也很方便。</p>
-<h3 id="Wi-Fi"><a href="#Wi-Fi" class="headerlink" title="Wi-Fi"></a>Wi-Fi</h3><p>住所不装Wi-Fi已有一月多，大的改变是使用互联网的习惯，基本上不会在社交网络上逗留太多时间。微信是社交网络使用时间的巨头，主要用处在和家人朋友的通讯，获取地区&#x2F;二手&#x2F;爱好最新信息。老实说，关注的大部分公众号只会浏览标题，很少点进去深度阅读(几分钟的阅读其实也并不深)。最高浏览量的是_环球科学_，_上海疾控_，_YuLab_和_心理学人_，其他各是AI发展&#x2F;情怀&#x2F;小众&#x2F;社群之类的。短视频功能没有开启，公众号我也不再更新。综上，微信对我来说主要用处是保持社交，维持情绪。占用手机屏幕使用时间的其他应用分别是：微信读书，Duolinguo和浏览器。</p>
-<h3 id="瘾"><a href="#瘾" class="headerlink" title="瘾"></a>瘾</h3><p>由于创建博客接触到了RSS订阅，看到了思想丰腴的人游荡在互联网:ocean:。有个摘抄自<code>github</code>的CEO是这样的：</p>
+<p>简单来说 <code>Hexo</code> 使用 <code>javascript</code> 来制造网络博客。如果你安装了 <code>Hexo</code>，那就只需要个主题 <code>theme</code> 和服务器。当然，对我来说，不想付钱买服务器就可以在 <code>github</code> 上部署。参考了太多博主，而一些教程已经落后，版本已更新不适用，所以我大概总结了遇到的<a href="https://fancraft.github.io/website/my-new-post/">麻烦</a>，可供参考。</p>
+<p>耗时大概一周才有个还算比较满意的博客，但还需要改正和添加的地方太多了。以后慢慢改，也是实行不需要一直在一个问题上栽跟头，适当地转移自己的注意有助于思考。（虽然我这几天一直是干坐好几个小时搞一个 bug 的状态 :3</p>
+<h2 id="当下"><a href="#当下" class="headerlink" title="当下"></a>当下</h2><p>凑合着用。因为搞网站而把自己的其他事情搁置了，很专一，也很呆板。说不定以后直接链接 <code>notion</code>，毕竟整合也很方便。</p>
+<h3 id="Wi-Fi"><a href="#Wi-Fi" class="headerlink" title="Wi-Fi"></a>Wi-Fi</h3><p>住所不装 Wi-Fi 已有一月多，大的改变是使用互联网的习惯，基本上不会在社交网络上逗留太多时间。微信是社交网络使用时间的巨头，主要用处在和家人朋友的通讯，获取地区 / 二手 / 爱好最新信息。老实说，关注的大部分公众号只会浏览标题，很少点进去深度阅读 (几分钟的阅读其实也并不深)。最高浏览量的是_环球科学_，_上海疾控_，_YuLab_和_心理学人_，其他各是 AI 发展 / 情怀 / 小众 / 社群之类的。短视频功能没有开启，公众号我也不再更新。综上，微信对我来说主要用处是保持社交，维持情绪。占用手机屏幕使用时间的其他应用分别是：微信读书，Duolinguo 和浏览器。</p>
+<h3 id="瘾"><a href="#瘾" class="headerlink" title="瘾"></a>瘾</h3><p>由于创建博客接触到了 RSS 订阅，看到了思想丰腴的人游荡在互联网:ocean:。有个摘抄自 <code>github</code> 的 CEO 是这样的：</p>
 <blockquote>
 <p>One week is 2% of the year.</p>
 </blockquote>
 <p>这样量化一周的时间，如果不合理利用的话，丢失了多少学习的机会。</p>
-<p>我自己虽然本事是个喜欢忙起来的人，好处是接触到新鲜的事物，坏处是有时候像无头苍蝇乱飞，最后变得疲惫。如果有<strong>计划</strong>和<strong>导向</strong>的完成目标，会轻松得多。就像Dr.Kim说的，从目标进化成一个系统。例如，从一周跑10km的目标进化🧬成每天跑500m，可持续性地为自己建立习惯。成习惯也会成瘾，假设一两天不摸吉他，我就恐惧手上的茧会褪去，积累的熟练会突然消失。这样的瘾，能让人建立自己的标准，就像慢慢在房子上抹水泥，一点点地丰富自己。</p>
+<p>我自己虽然本事是个喜欢忙起来的人，好处是接触到新鲜的事物，坏处是有时候像无头苍蝇乱飞，最后变得疲惫。如果有<strong>计划</strong>和<strong>导向</strong>的完成目标，会轻松得多。就像 Dr.Kim 说的，从目标进化成一个系统。例如，从一周跑 10km 的目标进化🧬成每天跑 500m，可持续性地为自己建立习惯。成习惯也会成瘾，假设一两天不摸吉他，我就恐惧手上的茧会褪去，积累的熟练会突然消失。这样的瘾，能让人建立自己的标准，就像慢慢在房子上抹水泥，一点点地丰富自己。</p>
 
     </div>
 
@@ -312,8 +344,8 @@
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/life/week-2/" rel="next" title="week-2">
-                  week-2 <i class="fa fa-angle-right"></i>
+                <a href="/life/week-2/" rel="next" title="日全食">
+                  日全食 <i class="fa fa-angle-right"></i>
                 </a>
             </div>
           </div>
@@ -426,6 +458,7 @@
 
 
 
+  <script src="/js/third-party/pace.js"></script>
 
 
   

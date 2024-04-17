@@ -1,5 +1,6 @@
-https://fancraft.github.io/life/week-2/
+https://fancraft.github.io/life/week-3/
 https://fancraft.github.io/web/my-new-post/
+https://fancraft.github.io/life/week-2/
 https://fancraft.github.io/Life/week-1/
 https://fancraft.github.io/404.html
 https://fancraft.github.io/about/index.html
@@ -9,6 +10,8 @@ https://fancraft.github.io/uncategorized/hello-world/
 https://fancraft.github.io/
 https://fancraft.github.io/tags/hexo/
 https://fancraft.github.io/tags/summary/
+https://fancraft.github.io/tags/life/
+https://fancraft.github.io/tags/Meal/
 https://fancraft.github.io/categories/web/
-https://fancraft.github.io/categories/Life/
 https://fancraft.github.io/categories/life/
+https://fancraft.github.io/categories/Life/

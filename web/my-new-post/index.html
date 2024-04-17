@@ -18,18 +18,20 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha256-wiz7ZSCn/btzhjKDQBms9Hx4sSeUYsDrTLg7roPstac=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/#bcbcbc/pace-theme-minimal.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"fancraft.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.19.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="调试favicon在这里设置网站图片。在主题配置文件favicon更改。avatar同理 增加标签页&#x2F;分类页hexo new page tags .md中添加type: tags categories同理 本地调试步骤$ hexo clean $ hexo g $ hexo s --debug  部署步骤">
+    <meta name="description" content="调试favicon在这里设置网站图片。在主题配置文件 favicon 更改。avatar 同理 增加标签页 &#x2F; 分类页hexo new page tags .md 中添加 type: tags categories 同理 本地调试步骤$ hexo clean $ hexo g $ hexo s --debug  部署步骤">
 <meta property="og:type" content="article">
 <meta property="og:title" content="网站构建历史">
 <meta property="og:url" content="https://fancraft.github.io/web/my-new-post/index.html">
 <meta property="og:site_name" content="fanfan&#39;s blog">
-<meta property="og:description" content="调试favicon在这里设置网站图片。在主题配置文件favicon更改。avatar同理 增加标签页&#x2F;分类页hexo new page tags .md中添加type: tags categories同理 本地调试步骤$ hexo clean $ hexo g $ hexo s --debug  部署步骤">
+<meta property="og:description" content="调试favicon在这里设置网站图片。在主题配置文件 favicon 更改。avatar 同理 增加标签页 &#x2F; 分类页hexo new page tags .md 中添加 type: tags categories 同理 本地调试步骤$ hexo clean $ hexo g $ hexo s --debug  部署步骤">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2024-03-21T14:05:58.000Z">
-<meta property="article:modified_time" content="2024-04-06T04:58:59.481Z">
+<meta property="article:modified_time" content="2024-04-12T15:13:36.056Z">
 <meta property="article:author" content="Fanfan">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -55,7 +57,41 @@
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
   </noscript>
-<link rel="alternate" href="/atom.xml" title="fanfan's blog" type="application/atom+xml">
+<style type="text/css">
+.spoiler {
+  display: inline;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}
+    .spoiler .spoiler-box.spoiler-bda96, .spoiler .spoiler-box.spoiler-bda96 > * {
+      color: red;
+      background-color: red;
+    }</style><link rel="alternate" href="/atom.xml" title="fanfan's blog" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
@@ -142,7 +178,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B0%83%E8%AF%95"><span class="nav-number">1.</span> <span class="nav-text">调试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#favicon"><span class="nav-number">1.0.1.</span> <span class="nav-text">favicon</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A2%9E%E5%8A%A0%E6%A0%87%E7%AD%BE%E9%A1%B5-%E5%88%86%E7%B1%BB%E9%A1%B5"><span class="nav-number">1.0.2.</span> <span class="nav-text">增加标签页&#x2F;分类页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.0.3.</span> <span class="nav-text">本地调试步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.0.4.</span> <span class="nav-text">部署步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">1.0.5.</span> <span class="nav-text">常用命令</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%99%AB%E5%AD%90"><span class="nav-number">1.1.</span> <span class="nav-text">虫子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E4%B8%80%E6%AD%A5"><span class="nav-number">1.2.</span> <span class="nav-text">下一步</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B0%83%E8%AF%95"><span class="nav-number">1.</span> <span class="nav-text">调试</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#favicon"><span class="nav-number">1.0.1.</span> <span class="nav-text">favicon</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%A2%9E%E5%8A%A0%E6%A0%87%E7%AD%BE%E9%A1%B5-%E5%88%86%E7%B1%BB%E9%A1%B5"><span class="nav-number">1.0.2.</span> <span class="nav-text">增加标签页 &#x2F; 分类页</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9C%AC%E5%9C%B0%E8%B0%83%E8%AF%95%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.0.3.</span> <span class="nav-text">本地调试步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%83%A8%E7%BD%B2%E6%AD%A5%E9%AA%A4"><span class="nav-number">1.0.4.</span> <span class="nav-text">部署步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4"><span class="nav-number">1.0.5.</span> <span class="nav-text">常用命令</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%99%AB%E5%AD%90"><span class="nav-number">1.1.</span> <span class="nav-text">虫子</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%8B%E4%B8%80%E6%AD%A5"><span class="nav-number">1.2.</span> <span class="nav-text">下一步</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%88%86%E6%B0%B4%E5%B2%AD"><span class="nav-number">1.3.</span> <span class="nav-text">分水岭</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo%E6%8F%92%E4%BB%B6"><span class="nav-number">1.3.1.</span> <span class="nav-text">Hexo 插件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86"><span class="nav-number">1.3.1.1.</span> <span class="nav-text">文章加密</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%96%87%E5%AD%97%E9%81%AE%E7%9B%96%E6%95%88%E6%9E%9C-Spoiler"><span class="nav-number">1.3.1.2.</span> <span class="nav-text">文字遮盖效果 Spoiler</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%88%86%E6%A0%8F"><span class="nav-number">1.3.1.3.</span> <span class="nav-text">分栏</span></a></li></ol></li></ol></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -157,7 +193,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -168,7 +204,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -245,10 +281,10 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a target="_blank" rel="noopener" href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件<code>favicon</code>更改。<code>avatar</code>同理</p>
-<h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页&#x2F;分类页"></a>增加标签页&#x2F;分类页</h3><p><code>hexo new page tags</code></p>
-<p>.md中添加<code>type: tags</code></p>
-<p><code>categories</code>同理</p>
+    <div class="post-body" itemprop="articleBody"><h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><h3 id="favicon"><a href="#favicon" class="headerlink" title="favicon"></a>favicon</h3><p>在<a target="_blank" rel="noopener" href="https://realfavicongenerator.net/">这里</a>设置网站图片。在主题配置文件 <code>favicon</code> 更改。<code>avatar</code> 同理</p>
+<h3 id="增加标签页-分类页"><a href="#增加标签页-分类页" class="headerlink" title="增加标签页/分类页"></a>增加标签页 / 分类页</h3><p><code>hexo new page tags</code></p>
+<p>.md 中添加 <code>type: tags</code></p>
+<p><code>categories</code> 同理</p>
 <h3 id="本地调试步骤"><a href="#本地调试步骤" class="headerlink" title="本地调试步骤"></a>本地调试步骤</h3><pre><code class="highlight plaintext">$ hexo clean
 $ hexo g
 $ hexo s --debug</code></pre>
@@ -257,10 +293,10 @@ $ hexo s --debug</code></pre>
 $ hexo g
 $ hexo d</code></pre>
 
-<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><pre><code class="highlight plaintext">$ hexo new &quot;postName&quot;  #新建文章
-$ hexo new page &quot;pageName&quot; # 新建页面
+<h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><pre><code class="highlight plaintext">$ hexo new "postName"  #新建文章
+$ hexo new page "pageName" # 新建页面
 $ hexo generate # 生成静态页面至public目录
-$ hexo server # 开启预览访问端口(默认端口4000，&#x27;ctrl+c&#x27;关闭server)
+$ hexo server # 开启预览访问端口(默认端口4000，'ctrl+c'关闭server)
 $ hexo deploy # 项目部署
 $ hexo help # 查看帮助
 $ hexo version # 查看Hexo的版本</code></pre>
@@ -268,12 +304,12 @@ $ hexo version # 查看Hexo的版本</code></pre>
 <p><a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> </p>
 <p><a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a></p>
 <h2 id="虫子"><a href="#虫子" class="headerlink" title="虫子"></a>虫子</h2><ol>
-<li><p>本地编辑<code>power by</code>，<code>icon</code>，<code>reward</code>,<code>avatar</code>无及时反馈。可能存在的问题：</p>
+<li><p>本地编辑 <code>power by</code>，<code>icon</code>，<code>reward</code>,<code>avatar</code> 无及时反馈。可能存在的问题：</p>
 <p>a. <del>需要联网</del></p>
-<p>原因：code里没有完整的<code>.enable</code></p>
-<p>解决：删除footer.swig 中 powered by或添加<code>.enable</code>。或者改成<code>!==false</code></p>
+<p>原因：code 里没有完整的<code>.enable</code></p>
+<p>解决：删除 footer.swig 中 powered by 或添加<code>.enable</code>。或者改成 <code>!==false</code></p>
 </li>
-<li><p>持续bug，解决不了了！！直接重启theme！</p>
+<li><p>持续 bug，解决不了了！！直接重启 theme！</p>
 <ol>
 <li><p>install a theme</p>
 <ol>
@@ -296,30 +332,30 @@ git rm -f themes/&lt;theme-name&gt;
 </li>
 </ol>
 </li>
-<li><p><code>sidebar</code>无法删除。</p>
+<li><p><code>sidebar</code> 无法删除。</p>
 <ol>
-<li>解决：直接inspect element&#x2F;f12，强行删除sidebar…哪里不爽点哪里。<a target="_blank" rel="noopener" href="https://io-oi.me/tech/hexo-next-optimization/#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%98%BE%E7%A4%BA-back-to-top-%E6%8C%89%E9%92%AE%E5%92%8C%E4%BE%A7%E6%A0%8F">参考</a></li>
+<li>解决：直接 inspect element/f12，强行删除 sidebar… 哪里不爽点哪里。<a target="_blank" rel="noopener" href="https://io-oi.me/tech/hexo-next-optimization/#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E6%98%BE%E7%A4%BA-back-to-top-%E6%8C%89%E9%92%AE%E5%92%8C%E4%BE%A7%E6%A0%8F">参考</a></li>
 </ol>
 </li>
-<li><p>文章结尾出现<code>Template render error: </code></p>
+<li><p>文章结尾出现 <code>Template render error: </code></p>
 <ol>
-<li>解决：文件里出现<code>&#123;&#123;%&#125;&#125;</code>删除即可，这也是为什么我没有再把所有编辑过的码po上来的原因…</li>
+<li>解决：文件里出现 <code>{{%}}</code> 删除即可，这也是为什么我没有再把所有编辑过的码 po 上来的原因…</li>
 </ol>
 </li>
-<li><p>无法显示busuanzi count记录本站访问次数</p>
+<li><p> 无法显示 busuanzi count 记录本站访问次数</p>
 <ol>
-<li>解决：直接上busuanzi官网复制粘贴代码到<code>footer.njk</code>，不知道为什么<code>swig</code>改到了<code>njk</code>，不过都能用。并添加post-meta-devider。</li>
-<li>解决2: <code>footer.njk</code>中<code>.enable</code>改成<code>!==false </code>，并且将busuanzi官方两行代码复制到<code>busuanzi-counter.njk</code>文件</li>
+<li>解决：直接上 busuanzi 官网复制粘贴代码到 <code>footer.njk</code>，不知道为什么 <code>swig</code> 改到了 <code>njk</code>，不过都能用。并添加 post-meta-devider。</li>
+<li>解决 2: <code>footer.njk</code> 中<code>.enable</code> 改成 <code>!==false </code>，并且将 busuanzi 官方两行代码复制到 <code>busuanzi-counter.njk</code> 文件</li>
 </ol>
 </li>
-<li><p>Local search 不显示</p>
+<li><p> Local search 不显示</p>
 <ol>
-<li>解决：<code>themes/next/layout/_partials/header/menu.njk</code>和<code>themes/next/layout/_partials/search/index.njk</code>中<code>.enable</code>改成<code>!==false </code></li>
+<li>解决：<code>themes/next/layout/_partials/header/menu.njk</code> 和 <code>themes/next/layout/_partials/search/index.njk</code> 中<code>.enable</code> 改成 <code>!==false </code></li>
 </ol>
 </li>
 </ol>
 <h2 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h2><ol>
-<li><del>下载dependencies: word count,</del></li>
+<li><del>下载 dependencies: word count,</del></li>
 <li><del>search services</del></li>
 <li><del>busuanzi count</del></li>
 <li><code>local search: true</code><ol>
@@ -327,40 +363,62 @@ git rm -f themes/&lt;theme-name&gt;
 </ol>
 </li>
 <li><del>添加底部已运行–天–时–</del></li>
-<li>添加到google search中<ol>
+<li>添加到 google search 中 <ol>
 <li><a target="_blank" rel="noopener" href="https://developers.google.com/search">https://developers.google.com/search</a></li>
-<li>搞个html verification，复制到配置文件里 <code>&lt;meta name=&quot;google-site-verification&quot; content=&quot;zmdllLs3T5PIoDAKGjHjdF-gO6eH3uqxmbBf5yQNeDA&quot; /&gt;</code></li>
-<li><em>未成功</em></li>
+<li> 搞个 html verification，复制到配置文件里 <code>&lt;meta name="google-site-verification" content="zmdllLs3T5PIoDAKGjHjdF-gO6eH3uqxmbBf5yQNeDA" /&gt;</code></li>
+<li><em>未成功 </em></li>
 </ol>
 </li>
-<li><del><code>reward</code>二维码</del></li>
+<li><del><code>reward</code> 二维码</del></li>
 <li>修改博客颜色<ol>
 <li>预备颜色<ol>
-<li>CCD5AE，E9EDC9，FEFAE0，FAEDCD，D4A373</li>
+<li> CCD5AE，E9EDC9，FEFAE0，FAEDCD，D4A373</li>
 <li>DAD7CD，<strong>A3B18A</strong>，<strong>588157，3A5A40</strong>，344E41</li>
 </ol>
 </li>
 </ol>
 </li>
-<li>阅读进程滚动条<ol>
+<li> 阅读进程滚动条<ol>
 <li><em>未成功</em><ol>
-<li><code>source/css/_common/components/reading-progress.styl</code>改成<code>!==false</code></li>
+<li><code>source/css/_common/components/reading-progress.styl</code> 改成 <code>!==false</code></li>
 </ol>
 </li>
 </ol>
 </li>
-<li>豆瓣&#x2F;notion plugin</li>
-<li>字体大小<ol>
-<li>themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_variables</li>
+<li>豆瓣 /notion plugin</li>
+<li> 字体大小<ol>
+<li> themes/next/source/css/_variables</li>
 </ol>
 </li>
-<li>安装插件 参考sakuraTears</li>
+<li> 安装插件 参考 sakuraTears</li>
 </ol>
-<p>参考</p>
+<h2 id="分水岭"><a href="#分水岭" class="headerlink" title="分水岭"></a>分水岭</h2><p>以上很多问题，譬如 <code>power by</code>，<code>icon</code>，<code>reward</code>,<code>avatar</code>，<code>search</code> 无及时反馈等等，在参考<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/getting-started/">官方教程</a>之后，基本都解决了。问题就在于网上很多教程都是好几年前的，当时 <code>hexo</code> 站点和 <code>next theme</code> 各有一个配置文件 <code>config.yml</code>。作者更新后，只需在 <code>hexo</code> 的 <code>site root directory</code> 添加<code>_config.next.yml</code> 文件即可。所以.. 必要时需要重新阅读说明书。</p>
+<h3 id="Hexo插件"><a href="#Hexo插件" class="headerlink" title="Hexo插件"></a>Hexo 插件</h3><h4 id="文章加密"><a href="#文章加密" class="headerlink" title="文章加密"></a><a target="_blank" rel="noopener" href="https://github.com/MikeCoder/hexo-blog-encrypt">文章加密</a></h4><pangu> </pangu><pre><code class="highlight plaintext">npm install --save hexo-blog-encrypt`
+在文章信息头插入
+`password: mikemessi abstract: 有东西被加密了, 请输入密码查看.`
+`message: 您好, 这里需要密码.</code></pre>
+
+<h4 id="文字遮盖效果-Spoiler"><a href="#文字遮盖效果-Spoiler" class="headerlink" title="文字遮盖效果 Spoiler"></a><a target="_blank" rel="noopener" href="https://github.com/unnamed42/hexo-spoiler">文字遮盖效果 Spoiler</a></h4><p><a target="_blank" rel="noopener" href="http://htmlpreview.github.io/?https://github.com/unnamed42/hexo-spoiler/blob/master/example/index.html">预览效果</a><br><code>npm install hexo-spoiler --save</code><br>站点根目录配置填写</p>
+<pre><code class="highlight plaintext">spoiler:
+  style: blur # 或者box
+  color: black # 仅当 style 为 box 时起效
+  p: false # 没懂啥意思，不管它</code></pre>
+
+<h4 id="分栏"><a href="#分栏" class="headerlink" title="分栏"></a><a target="_blank" rel="noopener" href="https://github.com/YunYouJun/hexo-tag-common">分栏</a></h4><p><code>npm install hexo-tag-common</code><br>具体使用说明：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/tag-plugins/tabs.html">Tabs-NexT</a></p>
+<pre><code class="highlight plaintext">{% spoiler p: color:red `inline code` [link](https://example.com) *italic* ~~delete~~ **bold** %}</code></pre>
+
+<p>add <code>&lt;p/&gt;</code> in-between</p>
+ <p></p><p class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur spoiler-bda96">post test</span></p> <p>
+
+
+
+</p><p>参考</p>
 <ol>
-<li><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next主题搭建个人博客+优化全过程（完整详细版）</a></p>
+<li><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/618864711">Hexo+Next 主题搭建个人博客 + 优化全过程（完整详细版）</a></p>
 </li>
 <li><p><a target="_blank" rel="noopener" href="https://blog.juanertu.com/archives/264a3045">Hexo 框架 (三)：Next 主题配置及美化</a></p>
+</li>
+<li><p><a target="_blank" rel="noopener" href="https://loafing.cn/posts/hexo-tags.html#">Hexo 插件</a></p>
 </li>
 </ol>
 
@@ -532,6 +590,7 @@ git rm -f themes/&lt;theme-name&gt;
 
 
 
+  <script src="/js/third-party/pace.js"></script>
 
 
   
