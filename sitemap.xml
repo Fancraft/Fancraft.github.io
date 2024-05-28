@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fancraft.github.io/uncategorized/week-5/</loc>
+    
+    <lastmod>2024-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/life/week-4/</loc>
+    
+    <lastmod>2024-05-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fancraft.github.io/Life/week-3/</loc>
     
     <lastmod>2024-04-25</lastmod>
@@ -12,15 +30,6 @@
   
   <url>
     <loc>https://fancraft.github.io/Life/week-2/</loc>
-    
-    <lastmod>2024-04-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fancraft.github.io/life/week-4/</loc>
     
     <lastmod>2024-04-25</lastmod>
     
@@ -94,7 +103,7 @@
 
   <url>
     <loc>https://fancraft.github.io/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,21 +111,28 @@
   
   <url>
     <loc>https://fancraft.github.io/tags/hexo/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/tags/summary/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/Life-Run/</loc>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/tags/Meal/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -125,21 +141,21 @@
   
   <url>
     <loc>https://fancraft.github.io/categories/web/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/categories/Life/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/categories/life/</loc>
-    <lastmod>2024-04-25</lastmod>
+    <lastmod>2024-05-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
