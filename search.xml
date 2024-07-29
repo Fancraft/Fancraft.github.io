@@ -63,7 +63,7 @@
 </li>
 </ul>
 <p><img src="/Users/f.y./Documents/Website/fanfan-blog/fan-blog/source/_posts/1.png" alt="RedBus页面展示{RedBus页面展示}"></p>
-<p>RedBus 页面展示<img src="/Travel/ColombiaTravel/1.png" class="" width="1"></p>
+<p>RedBus 页面展示<img src="/./ColombiaTravel/1.png" alt="1"></p>
 <p><img src="/Users/f.y./Documents/Website/fanfan-blog/fan-blog/source/_posts/2.png" alt="2"><img src="/Users/f.y./Documents/Website/fanfan-blog/fan-blog/source/_posts/2-2217220.png" alt="2"></p>
 <p>也有网页版</p>
 <p>网上很多吐槽长途大巴司机空调开特低，音乐防贼大。我自己倒没体验过这种极端情况，唯一一次真的有点凉需要披个外套，除此之外音乐也没很大声，还没前座放搞笑视频声音大。哥伦比亚人倒是很怕冷，尤其是 Cali/Medellin 这两个热地方出发的大巴，车上人穿夹克，披毯子，头戴棉线帽，鼻子还吸溜溜的直咳嗽。我反而穿个长袖毫无感觉。</p>
@@ -81,6 +81,27 @@
     <url>/uncategorized/hello-world/</url>
     <content><![CDATA[<p>Welcome to Fanfan’s blog. Here you’ll find nothing right now but glad I made it work!</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>日全食</title>
+    <url>/Life/week-2/</url>
+    <content><![CDATA[<h2 id="多云也要看日食"><a href="#多云也要看日食" class="headerlink" title="多云也要看日食"></a>多云也要看日食</h2><p>天气预报下午将会多云，偏偏日全食也在这个时候，不过去外面晒太阳躺着也行。窗外层层灰云没有散去的迹象，远处天地交界处倒是泛蓝。如果开车远离这里一两个小时，大概率会是晴天。月亮吞噬太阳一段时间后，对面楼竟然有了光阴。必须要下去了！天公作美。居民已经在有光的地方聚集。有人半开着驾驶座的门，侧身举着日食专用眼镜看了入神。老太太仰躺轮椅上欣赏。乌云似有似无地飘过，想要遮住太阳。可惜我重度近视和散光，用专用眼睛看出了好几个重影，月牙状橙黄的太阳慢慢变细。去掉日食眼镜，刺眼地白光就在我头上，我只能回避。肉眼盯着是看不到月亮的影子的，只瞎掉眼睛。</p>
+<p>在月亮接近于完全覆盖住太阳时，天空整个暗了下来，路灯亮了，仿佛一下子进入黑夜。太阳只剩下一个圆环，还有一点点的偏差让它发出如戒指上的钻石般的光芒。于是，正式进入一分多钟的日全食。这时可以用肉眼观看。震撼的景象来了，整个太阳除了逃离出月亮的一环白光，整个芯都是暗黑色。周边的云和天都要比它亮。人群躁动起来了，抬头看罕见地日全食。</p>
+<h2 id="WiFi-续"><a href="#WiFi-续" class="headerlink" title="WiFi - 续"></a>WiFi - 续</h2><p>不装 Wifi 的弊端有三个：</p>
+<ol>
+<li>由于外出使用 wifi 而导致大部分时间都不在屋里，猫猫有极大概率的饿肚子的风险。于是乎，回家时猫很兴奋地讨吃的。</li>
+<li>也由于大部分时间在外面，冰箱里的食物不能及时吃掉而浪费。会有回家时太过疲惫而无法打包第二天的饭的情况。</li>
+<li>在外餐饮消费频次增高。</li>
+</ol>
+<p>总之，wifi 装回来了。可喜可贺！🎉</p>
+<p>突然地回归网上冲浪生活有些不能自拔，也是个新生活的开始。</p>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>summary</tag>
+      </tags>
   </entry>
   <entry>
     <title>网站构建历史</title>
@@ -257,49 +278,6 @@ git rm -f themes/&lt;theme-name&gt;
       </tags>
   </entry>
   <entry>
-    <title>日全食</title>
-    <url>/Life/week-2/</url>
-    <content><![CDATA[<h2 id="多云也要看日食"><a href="#多云也要看日食" class="headerlink" title="多云也要看日食"></a>多云也要看日食</h2><p>天气预报下午将会多云，偏偏日全食也在这个时候，不过去外面晒太阳躺着也行。窗外层层灰云没有散去的迹象，远处天地交界处倒是泛蓝。如果开车远离这里一两个小时，大概率会是晴天。月亮吞噬太阳一段时间后，对面楼竟然有了光阴。必须要下去了！天公作美。居民已经在有光的地方聚集。有人半开着驾驶座的门，侧身举着日食专用眼镜看了入神。老太太仰躺轮椅上欣赏。乌云似有似无地飘过，想要遮住太阳。可惜我重度近视和散光，用专用眼睛看出了好几个重影，月牙状橙黄的太阳慢慢变细。去掉日食眼镜，刺眼地白光就在我头上，我只能回避。肉眼盯着是看不到月亮的影子的，只瞎掉眼睛。</p>
-<p>在月亮接近于完全覆盖住太阳时，天空整个暗了下来，路灯亮了，仿佛一下子进入黑夜。太阳只剩下一个圆环，还有一点点的偏差让它发出如戒指上的钻石般的光芒。于是，正式进入一分多钟的日全食。这时可以用肉眼观看。震撼的景象来了，整个太阳除了逃离出月亮的一环白光，整个芯都是暗黑色。周边的云和天都要比它亮。人群躁动起来了，抬头看罕见地日全食。</p>
-<h2 id="WiFi-续"><a href="#WiFi-续" class="headerlink" title="WiFi - 续"></a>WiFi - 续</h2><p>不装 Wifi 的弊端有三个：</p>
-<ol>
-<li>由于外出使用 wifi 而导致大部分时间都不在屋里，猫猫有极大概率的饿肚子的风险。于是乎，回家时猫很兴奋地讨吃的。</li>
-<li>也由于大部分时间在外面，冰箱里的食物不能及时吃掉而浪费。会有回家时太过疲惫而无法打包第二天的饭的情况。</li>
-<li>在外餐饮消费频次增高。</li>
-</ol>
-<p>总之，wifi 装回来了。可喜可贺！🎉</p>
-<p>突然地回归网上冲浪生活有些不能自拔，也是个新生活的开始。</p>
-]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-      <tags>
-        <tag>summary</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>失败是成功的妈</title>
-    <url>/Life/week-4/</url>
-    <content><![CDATA[<h1 id="失败是成功的妈"><a href="#失败是成功的妈" class="headerlink" title="失败是成功的妈"></a>失败是成功的妈</h1><h2 id="摸鱼"><a href="#摸鱼" class="headerlink" title="摸鱼"></a>摸鱼</h2><p>上班摸鱼🦑写点东西，平时较为懒惰。</p>
-<p>申请被拒了，没有办法。摔倒了只能站起来。看到结果反而很平静，可能之前被拒的次数太多了，再怎么对自己有自信也没有用。而人活在这个充满新鲜刺激里，面对一直增长的熵，只能应对。无论是摔倒了就躺着，还是摔倒了立刻站起来，都需要接受那样的自己。不抱怨，不颓气，生活是无限的，那就在旷野上撒泼打滚。</p>
-]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>早起跑步</title>
-    <url>/Life/week-5/</url>
-    <content><![CDATA[<h1 id="早起跑步"><a href="#早起跑步" class="headerlink" title="早起跑步"></a>早起跑步</h1><p>趁热打铁，赶快写一个。自己身体还是太菜了，心跳最高<!-- spoiler-bda96:red --></p><p class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur spoiler-bda96">189bpm</span></p>，心脏紧的不行。跑+快走完成，心跳降到140左右再跑，两步一吸，一步呼。步伐沉重，主要使用大腿的话会轻盈，步伐变大，也会费力。总之先练耐力，尽量中间没有快走地跑完。预热和跑后缓冲距离大概800m，不计入跑步距离。<p></p>
-]]></content>
-      <categories>
-        <category>Life</category>
-      </categories>
-      <tags>
-        <tag>Run</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>春天的回忆</title>
     <url>/Life/week-3/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="咋回事儿啊？猜不出来？1234啊" data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
@@ -323,5 +301,27 @@ git rm -f themes/&lt;theme-name&gt;
       <tags>
         <tag>Meal</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>早起跑步</title>
+    <url>/Life/week-5/</url>
+    <content><![CDATA[<h1 id="早起跑步"><a href="#早起跑步" class="headerlink" title="早起跑步"></a>早起跑步</h1><p>趁热打铁，赶快写一个。自己身体还是太菜了，心跳最高<!-- spoiler-bda96:red --></p><p class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur spoiler-bda96">189bpm</span></p>，心脏紧的不行。跑+快走完成，心跳降到140左右再跑，两步一吸，一步呼。步伐沉重，主要使用大腿的话会轻盈，步伐变大，也会费力。总之先练耐力，尽量中间没有快走地跑完。预热和跑后缓冲距离大概800m，不计入跑步距离。<p></p>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Run</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>失败是成功的妈</title>
+    <url>/Life/week-4/</url>
+    <content><![CDATA[<h1 id="失败是成功的妈"><a href="#失败是成功的妈" class="headerlink" title="失败是成功的妈"></a>失败是成功的妈</h1><h2 id="摸鱼"><a href="#摸鱼" class="headerlink" title="摸鱼"></a>摸鱼</h2><p>上班摸鱼🦑写点东西，平时较为懒惰。</p>
+<p>申请被拒了，没有办法。摔倒了只能站起来。看到结果反而很平静，可能之前被拒的次数太多了，再怎么对自己有自信也没有用。而人活在这个充满新鲜刺激里，面对一直增长的熵，只能应对。无论是摔倒了就躺着，还是摔倒了立刻站起来，都需要接受那样的自己。不抱怨，不颓气，生活是无限的，那就在旷野上撒泼打滚。</p>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
   </entry>
 </search>
