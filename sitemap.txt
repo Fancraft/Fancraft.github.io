@@ -1,5 +1,5 @@
-https://fancraft.github.io/web/week-6/
 https://fancraft.github.io/Travel/ColombiaTravel/
+https://fancraft.github.io/web/week-6/
 https://fancraft.github.io/Life/week-5/
 https://fancraft.github.io/Life/week-4/
 https://fancraft.github.io/Life/week-3/
@@ -12,11 +12,11 @@ https://fancraft.github.io/tags/index.html
 https://fancraft.github.io/categories/index.html
 https://fancraft.github.io/uncategorized/hello-world/
 https://fancraft.github.io/
-https://fancraft.github.io/tags/hexo/
-https://fancraft.github.io/tags/summary/
 https://fancraft.github.io/tags/Colombia/
+https://fancraft.github.io/tags/summary/
 https://fancraft.github.io/tags/Meal/
+https://fancraft.github.io/tags/hexo/
 https://fancraft.github.io/tags/Run/
-https://fancraft.github.io/categories/web/
-https://fancraft.github.io/categories/Life/
 https://fancraft.github.io/categories/Travel/
+https://fancraft.github.io/categories/Life/
+https://fancraft.github.io/categories/web/
