@@ -2,27 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://fancraft.github.io/Travel/ColombiaTravel/</loc>
+    
+    <lastmod>2024-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://fancraft.github.io/Travel/ColombiaTravelSanAgustin/</loc>
     
-    <lastmod>2024-08-02</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fancraft.github.io/Travel/ColombiaTravelBogota/</loc>
-    
-    <lastmod>2024-07-30</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://fancraft.github.io/web/week-6/</loc>
-    
-    <lastmod>2024-07-30</lastmod>
+    <lastmod>2024-08-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -31,16 +22,34 @@
   <url>
     <loc>https://fancraft.github.io/web/my-new-post/</loc>
     
-    <lastmod>2024-07-30</lastmod>
+    <lastmod>2024-08-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/Travel/ColombiaTravel/</loc>
+    <loc>https://fancraft.github.io/web/week-6/</loc>
     
-    <lastmod>2024-07-30</lastmod>
+    <lastmod>2024-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/Travel/ColombiaTravelBogota/</loc>
+    
+    <lastmod>2024-08-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/Travel/ColombiaTravelPopayan/</loc>
+    
+    <lastmod>2024-08-07</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -139,71 +148,85 @@
 
   <url>
     <loc>https://fancraft.github.io/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://fancraft.github.io/tags/summary/</loc>
-    <lastmod>2024-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fancraft.github.io/tags/hexo/</loc>
-    <lastmod>2024-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://fancraft.github.io/tags/Colombia/</loc>
-    <lastmod>2024-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fancraft.github.io/tags/San-Agustin/</loc>
-    <lastmod>2024-08-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://fancraft.github.io/tags/%E5%9C%A3%E5%A5%A5%E5%8F%A4%E6%96%AF%E4%B8%81/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/tags/Bogota/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/tags/%E6%B3%A2%E5%93%A5%E5%A4%A7/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/tags/Run/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://fancraft.github.io/tags/hexo/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/Popayan/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/%E6%B3%A2%E5%B8%95%E6%89%AC/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/summary/</loc>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/tags/Meal/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/Run/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/San-Agustin/</loc>
+    <lastmod>2024-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://fancraft.github.io/tags/%E5%9C%A3%E5%A5%A5%E5%8F%A4%E6%96%AF%E4%B8%81/</loc>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -211,22 +234,22 @@
 
   
   <url>
-    <loc>https://fancraft.github.io/categories/Life/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://fancraft.github.io/categories/Travel/</loc>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://fancraft.github.io/categories/web/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://fancraft.github.io/categories/Travel/</loc>
-    <lastmod>2024-08-02</lastmod>
+    <loc>https://fancraft.github.io/categories/Life/</loc>
+    <lastmod>2024-08-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
