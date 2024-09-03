@@ -1271,8 +1271,13 @@ git rm -f themes/&lt;theme-name&gt;
     <content><![CDATA[<h2 id="暂住证"><a href="#暂住证" class="headerlink" title="暂住证"></a>暂住证</h2><p>Citizen service number (BSN) 类似北美的 Social Insurance Number (SIN)，或者直译就是社保号码。要有 BSN 才能办 Residence Permit<!-- spoiler-bda96:red --></p><p class="spoiler" onclick="this.classList.toggle('spoiler')"><span class="spoiler-blur spoiler-bda96">居民许可，我觉得翻译成暂住证更信达雅♪(´ε｀)</span></p>，办银行卡，有本地银行卡才能认证交通卡和手机卡买套餐，总之BSN很重要。犹记得加拿大银行被追问SIN是什么，小哥都急眼了，我一脸懵，我是真没有啊！<p></p>
 <p>办 BSN 时候大哥问我跟护照长得不像啊，打破了外国人看亚洲人都长一个样的丑闻。我笑，可能长大了吧。</p>
 <h2 id="公共交通"><a href="#公共交通" class="headerlink" title="公共交通"></a>公共交通</h2><p>城市规划非常宜居。乘坐公共交通基本和骑自行车消耗时间是一样的，所以不如每天骑车买菜通勤，也锻炼身体了。荷兰人不管穿什么衣服，甭管风衣西装还是裙子，都骑得悠哉悠哉。</p>
-<h2 id="银行"><a href="#银行" class="headerlink" title="银行"></a>银行</h2><p>竟然办卡都需要预约 (本地人直接 App 可以办，不需预约)，极少 ATM 取款机，极少直营分店。约了个办银行卡，位置在杂货店的角落，一个银行色办公桌，一张银行配色长椅……</p>
-<h2 id="钥匙"><a href="#钥匙" class="headerlink" title="钥匙"></a>钥匙</h2><p>公寓钥匙一把通用在楼下大门、房门、垃圾屋和邮箱。还没试过能不能打开人别家的门…</p>
+<h2 id="银行"><a href="#银行" class="headerlink" title="银行"></a>银行</h2><p>竟然办卡都需要预约 (本地人直接 App 可以办，不需预约)，极少 ATM 取款机，极少直营分店。约了个办银行卡，位置在杂货店的角落，一个银行色办公桌，一张银行配色长椅…… 办卡需要人到个商店小角落也就算了，办完不直接给我卡，要邮寄… 不是你，那你让我预约干啥呢？</p>
+<h2 id="钥匙"><a href="#钥匙" class="headerlink" title="钥匙"></a>钥匙</h2><p>公寓钥匙一把通用在楼下大门、房门、自行车库、垃圾屋和邮箱。还没试过能不能打开人别家的门…</p>
+<h2 id="水管"><a href="#水管" class="headerlink" title="水管"></a>水管</h2><p>一冷一热的双头开关，离谱的是冷热开关的旋转方向是反的，调试温水贼费劲，更离谱的是厨房的选装方向跟浴室浴霸又不一样…</p>
+<h2 id="数字标点使用"><a href="#数字标点使用" class="headerlink" title="数字标点使用"></a>数字标点使用</h2><p>至少货币类数字中的逗号和小数点的意义完全颠倒来的，例如 <code>50.00</code> 在欧洲以外的世界一般意思是五十，但在欧洲是五千。一般用 <code>,</code> 表示千也被改为了<code>.</code>。所以看到商品价格 <code>56.65</code> 我还懵了一下，怎么可能这么贵。至于欧美为什么差异那么大，参考<a href="https://www.languageediting.com/number-formatting-europe-vs-us/">这篇文章</a>。</p>
+<p>分享个照片吧</p>
+
+
 <p>不一样的地方</p>
 <ul>
 <li>银行</li>
@@ -1290,6 +1295,34 @@ git rm -f themes/&lt;theme-name&gt;
       </categories>
       <tags>
         <tag>Life</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>week-9</title>
+    <url>/Life/week-9/</url>
+    <content><![CDATA[<p>续集</p>
+<ul>
+<li>带孩子</li>
+<li> vegan</li>
+<li> 现金付款</li>
+<li>垃圾</li>
+</ul>
+<h2 id="带孩子"><a href="#带孩子" class="headerlink" title="带孩子"></a>带孩子</h2><p>很多男性出行带几个娃骑自行车，或推婴儿车。导致女性带孩子反让我觉得罕见了，并不是没有，只是少见抱着小孩儿的。</p>
+<h2 id="素食主义"><a href="#素食主义" class="headerlink" title="素食主义"></a>素食主义</h2><p>Vegan 中文翻译是严格素食主义者，非常准确。肉蛋奶或任何参与动物生产的食物都不吃。</p>
+<span id="more"></span>
+
+<p>Vegetarian 素食主义者则是仅不吃肉类。</p>
+<p>两种主义，尤其 Vegan 在这里的普遍程度，堪称几乎每家店都提供严格素食主义的选择。相比于北美的在哪里都能看到肉有多香的广告，在这里反而是大肆宣传 Vegan，让我脑里留下深刻素食印象。</p>
+<h2 id="现金付款"><a href="#现金付款" class="headerlink" title="现金付款"></a>现金付款</h2><p>荷兰人对信用卡十分不友好，reddit 上说是荷兰人不喜欢贷款。以至于我在这里买东西总有几家店碰壁，东西都选好了却不能结账。</p>
+<h2 id="垃圾"><a href="#垃圾" class="headerlink" title="垃圾"></a>垃圾</h2><p>垃圾分类十分细节。</p>
+<h2 id="城市规划"><a href="#城市规划" class="headerlink" title="城市规划"></a>城市规划</h2><p>自行车、公共交通和机动车道互不见面，各走各的。少有问题。</p>
+]]></content>
+      <categories>
+        <category>Life</category>
+      </categories>
+      <tags>
+        <tag>Netherlands</tag>
+        <tag>荷兰</tag>
       </tags>
   </entry>
 </search>
